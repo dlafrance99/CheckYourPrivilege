@@ -18,7 +18,7 @@ The app isn't currently running anywhere. Below is a demonstration of the interf
 This application follows React Native organization convention. 
 
 ## Built With
-React Native, React Native Elements, JavaScript
+React Native, React Native Elements, Expo, Babel, JavaScript
 
 
 ## Authors
