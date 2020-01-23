@@ -1,23 +1,24 @@
 # Check Your Privilege
-Train Scheduler, is a javascript based application that allows the user to check when trains are supposed to arrive or depart as well as add their own train schedule to the list. This application uses JQuery, Firebase, and Moment.js for it's functionality.
+Check Your Privilege is a simple React Native mobile application that allows users to split their tab based on "privilege" rather than an even split. The amount of "privilege" is calculated based on what they are paid in comparison to a white man in the United States of America. Using the report by PayScale (https://www.payscale.com/data/gender-pay-gap) the app will calculate how much of the bill you should pay, to "even the playing field" and have the most privileged patron pay more as a sort of reparation. The credit for this application goes to Colorado Comedian Hannah Jones, who has this idea for an app as part of her stand up routine. This app was made while self teaching myself React Native.
+
 
 ## Running the app 
-Follow the link below to test out the application!
-
-https://dlafrance99.github.io/Train-Scheduler/
+The app isn't currently running anywhere. Below is a demonstration of the interface and use of the application.
 
 
-![general layout](https://raw.githubusercontent.com/dlafrance99/Train-Scheduler/master/assets/images/Screen%20Shot%202020-01-16%20at%2012.07.29%20PM.png)
-![form Option](https://raw.githubusercontent.com/dlafrance99/Train-Scheduler/master/assets/images/Screen%20Shot%202020-01-16%20at%2012.08.03%20PM.png)
-![form results](https://raw.githubusercontent.com/dlafrance99/Train-Scheduler/master/assets/images/Screen%20Shot%202020-01-16%20at%2012.08.16%20PM.png)
+![Receipt Page](https://raw.githubusercontent.com/dlafrance99/CheckYourPrivilege/master/Images/Screen%20Shot%202020-01-22%20at%205.36.13%20PM.png)
+![People Page](https://raw.githubusercontent.com/dlafrance99/CheckYourPrivilege/master/Images/Screen%20Shot%202020-01-22%20at%205.37.00%20PM.png)
+![Advanced Demographic Page](https://raw.githubusercontent.com/dlafrance99/CheckYourPrivilege/master/Images/Screen%20Shot%202020-01-22%20at%205.38.07%20PM.png)
+![Results Page](https://raw.githubusercontent.com/dlafrance99/CheckYourPrivilege/master/Images/Screen%20Shot%202020-01-22%20at%205.37.30%20PM.png)
+
 
 
 ## Organization:
 
-As a simple javascript application, There are four files that alter the functionality of this application. normalize.css to normalize the styling across different web browsers, style.css to guide the layout and look of the app, javascript.js for the app logic, and index.html for formatting.
+This application follows React Native organization convention. 
 
 ## Built With
-HTML, CSS, Javascript, Jquery, Firebase, and Moment.js
+React Native, React Native Elements, JavaScript
 
 
 ## Authors
