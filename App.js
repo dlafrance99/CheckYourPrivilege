@@ -5,13 +5,15 @@ import PeopleScreen from './src/Screens/PeopleScreen';
 import SplitScreen from './src/Screens/SplitScreen';
 import AdvancedDemoScreen from './src/Screens/AdvancedDemoScreen';
 import { ReceiptProvider } from './src/Context/ReceiptContext';
+import InformationScreen from './src/Screens/InformationScreen';
 
 
 const navigator = createSwitchNavigator({
   Receipt: ReceiptScreen,
   People: PeopleScreen,
   Split: SplitScreen,
-  Advanced: AdvancedDemoScreen
+  Advanced: AdvancedDemoScreen,
+  Info: InformationScreen
 }, {
   initialRouteName: 'Receipt',
   defaultNavigationOptions: {

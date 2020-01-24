@@ -5,6 +5,7 @@ import ReceiptInput from '../Components/ReceiptInput';
 import NavButtons from '../Components/NavButtons';
 import Header from '../Components/Header';
 import Instructions from '../Components/Instructions';
+import InfoIcon from '../Components/InfoIcon';
 
 const ReceiptScreen = ({ navigation }) => {
 
@@ -37,6 +38,7 @@ const ReceiptScreen = ({ navigation }) => {
                     next='People'
                 />
             </View>
+            <InfoIcon />
         </>
     )
 }
